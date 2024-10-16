@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5 | Shoyeb </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://kit.fontawesome.com/2166435234.js" crossorigin="anonymous"></script>
+<style>
+.lex-font {
+        font-family: "Lexend", sans-serif;
+        }
+</style>
+</head>
+<body class="lex-font">
+<header>
+    <nav>
+        <div class="navbar bg-[#F9F7F3] px-10 py-4 ">
+            <div class="navbar-start">
+            <a href="./index.html" class="btn bg-[#B4F461] text-xl">Home</a>
+            </div>
+            <div class="navbar-center hidden lg:flex gap-4">
+            <div>
+                <img class="w-12 h-10" src="./assets/logo.png" alt="">
+            </div>
+            <div>
+                <h1 class="text-5xl">Donate Bangladesh</h1>
+            </div>
+            </div>
+            <div class="navbar-end">
+            <div>
+                <img src="./assets/coin.png" alt="">
+            </div>
+            <div class="font-extabold text-xl">
+                <p id="total-amount">5500</p>
+            </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<main class="w-11/12 mx-auto mt-16">
+    <div class="join join-vertical w-full">
+        <div class="collapse collapse-arrow join-item border-base-300 border">
+          <input type="radio" name="my-accordion-4" checked="checked" />
+          <div class="collapse-title text-xl font-medium">What is the Document Object Model (DOM)?</div>
+          <div class="collapse-content">
+            <p> DOM allows programming languages  to access, modify, and interact with the content, structure, and styles of a web page</p>
+          </div>
+        </div>
+        <div class="collapse collapse-arrow join-item border-base-300 border">
+          <input type="radio" name="my-accordion-4" />
+          <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
+          <div class="collapse-content">
+            <p>1. Selecting by ID: getElementById
+                <br>
+                2. Selecting by Class: getElementsByClassName <br>
+                3. Selecting by Tag Name: getElementsByTagName <br>
+                4. Selecting by CSS Selector: querySelector <br>
+                5. Selecting Multiple Elements by CSS Selector: querySelectorAll
+            </p>
+          </div>
+        </div>
+        <div class="collapse collapse-arrow join-item border-base-300 border">
+          <input type="radio" name="my-accordion-4" />
+          <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM, and why is it useful?</div>
+          <div class="collapse-content">
+            <p>Event delegation is a technique in the DOM that allows to handle events at a higher level in the DOM tree and events that occur on the child elements are "delegated" to that parent through event bubbling.</p>
+          </div>
+        </div>
+        <div class="collapse collapse-arrow join-item border-base-300 border">
+            <input type="radio" name="my-accordion-4" />
+            <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and styles using the DOM?</div>
+            <div class="collapse-content">
+              <p>1.Manipulating Attributes <br>
+                2.Manipulating Styles <br>
+                3. Manipulating Classes
+              </p>
+            </div>
+          </div>
+      </div>
+</main>
+</body>
+</html>
