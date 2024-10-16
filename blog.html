@@ -3,45 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 5 | Shoyeb </title>
+    <title>Assignment 5 | Shoyeb</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
-<script src="https://kit.fontawesome.com/2166435234.js" crossorigin="anonymous"></script>
-<style>
-.lex-font {
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/2166435234.js" crossorigin="anonymous"></script>
+    <style>
+    .lex-font {
         font-family: "Lexend", sans-serif;
-        }
-</style>
+    }
+    </style>
 </head>
-<body class="lex-font">
-<header>
-    <nav>
-        <div class="navbar bg-[#F9F7F3] px-10 py-4 ">
-            <div class="navbar-start">
-            <a href="./index.html" class="btn bg-[#B4F461] text-xl">Home</a>
+<body>
+    <header class="sticky top-0 bg-white backdrop-blur-lg border border-white  shadow-lg rounded-lg">
+        <nav>
+            <div class="navbar bg-[#F9F7F3] px-10  ">
+                <div class="navbar-start">
+                <a href="./index.html" class="btn bg-[#B4F461] text-xl">Home</a>
+                </div>
+                <div class="navbar-center hidden lg:flex gap-4">
+                <div>
+                    <img class="w-12 h-10" src="./assets/logo.png" alt="">
+                </div>
+                <div>
+                    <h1 class="text-5xl">Donate Bangladesh</h1>
+                </div>
+                </div>
+                <div class="navbar-end">
+                <div>
+                    <img src="./assets/coin.png" alt="">
+                </div>
+                <div class="font-extabold text-xl">
+                    <p id="total-amount">5500</p>
+                </div>
+                </div>
             </div>
-            <div class="navbar-center hidden lg:flex gap-4">
-            <div>
-                <img class="w-12 h-10" src="./assets/logo.png" alt="">
+        </nav>
+        <section class="mt-12 mb-4">
+            <div class="text-center">
+                <a id="donationButton"
+                    href="index.html"
+                    class="mr-2 px-6 py-3 rounded-lg text-xl font-semibold bg-white text-black border">
+                    Donation
+                </a>
+                <a id="historyButton"
+                    href="history.html"
+                    class="mr-2 px-6 py-3 rounded-lg text-xl font-semibold bg-lime-400 text-white">
+                    History
+                </a>
             </div>
-            <div>
-                <h1 class="text-5xl">Donate Bangladesh</h1>
-            </div>
-            </div>
-            <div class="navbar-end">
-            <div>
-                <img src="./assets/coin.png" alt="">
-            </div>
-            <div class="font-extabold text-xl">
-                <p id="total-amount">5500</p>
-            </div>
-            </div>
-        </div>
-    </nav>
-</header>
+        </section>
+    </header>
 <main class="w-11/12 mx-auto mt-16">
     <div class="join join-vertical w-full">
         <div class="collapse collapse-arrow join-item border-base-300 border">
